@@ -7,7 +7,7 @@ steps:
 
         git clone 
 
-        gcloud app deploy -y
+        gcloud app deploy -q
 
     id: update app engine deployment
     entrypoint: /bin/sh
