@@ -1,0 +1,15 @@
+steps:
+  - name: gcr.io/cloud-builders/gcloud
+    args:
+      - "-c"
+      - >
+        gcloud config set project YOUR-PROJECT-ID
+
+        git clone 
+
+        cd 
+
+        gcloud app deploy
+
+    id: update app engine deployment
+    entrypoint: /bin/sh
