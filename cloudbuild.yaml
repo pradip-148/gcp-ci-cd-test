@@ -3,7 +3,9 @@ steps:
     args:
       - "-c"
       - >
-        git clone https://github.com/pradip-148/gcp-ci-cd-test.git
+        git clone https://github.com/GoogleCloudPlatform/python-docs-samples.git
+
+        cd python-docs-samples/appengine/standard_python3/hello_world/
 
         gcloud app deploy -q
 
