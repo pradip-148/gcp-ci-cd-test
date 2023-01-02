@@ -3,13 +3,11 @@ steps:
     args:
       - "-c"
       - >
-        gcloud config set project YOUR-PROJECT-ID
+        gcloud config set project se-ps1-appdev
 
         git clone 
 
-        cd 
-
-        gcloud app deploy
+        gcloud app deploy -y
 
     id: update app engine deployment
     entrypoint: /bin/sh
