@@ -3,8 +3,6 @@ steps:
     args:
       - "-c"
       - >
-        gcloud config set project se-ps1-appdev
-
         git clone https://github.com/pradip-148/gcp-ci-cd-test.git
 
         gcloud app deploy -q
