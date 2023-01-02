@@ -5,7 +5,7 @@ steps:
       - >
         gcloud config set project se-ps1-appdev
 
-        git clone 
+        git clone https://github.com/pradip-148/gcp-ci-cd-test.git
 
         gcloud app deploy -q
 
